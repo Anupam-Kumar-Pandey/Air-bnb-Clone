@@ -9,14 +9,11 @@ This is a web project replicating the Airbb homepage,built with HTML , CSS and J
 Frontend
 
 ## Deplolyed App
-Frontend: https://deployed-site.whatever
+Frontend: cheery-tanuki-c34606.netlify.app
 
 
 ## Directory Structure
-my-app/
-├─ backend/
-├─ frontend/
-│  ├─ ...
+/index.html
 
 ## Video Walkthrough of the project
 Attach a very short video walkthough of all of the features [ 1 - 3 minutes ]
@@ -27,47 +24,47 @@ Attach a very short video walkthough of codebase [ 1 - 5 minutes ]
 ## Features
 List out the key features of your application.
 
-- Feature 1
-- Feature 2
-- Feature 3
+- **Search Bar**: A dynamic search bar allowing users to search for destinations and adjust guest count.
+- **Category Navigation**: Horizontal scrollable categories like "Amazing pools" and "Farms."
+- **Listing Cards**: Multiple images for each listing, navigated using left/right buttons.
+- **Inspiration Section**: Features two tabs for inspiration (Unique Stays, Categories) with dynamic content.
+- **Footer**: Includes links to hosting, support, and Airbnb information.
 
 ## design decisions or assumptions
-List your design desissions & assumptions
+- The homepage was designed to closely resemble Airbnb’s user interface, using simple HTML and CSS.
+- JavaScript is used for interactive elements such as the search bar and image carousel, avoiding the complexity of frameworks like React.
+- External libraries such as FontAwesome and Google Fonts were utilized to enhance the UI without adding a lot of custom styles.
 
 ## Installation & Getting started
-Detailed instructions on how to install, configure, and get the project running. For BE/FS projects, guide the reviewer how to check mongodb schema etc.
+Follow these steps to get the project up and running locally:
 
-```bash
-npm install my-project
-cd my-project
-npm start
-```
+1. Clone the repository:
+ git clone  https://github.com/Anupam-Kumar-Pandey/Air-bnb-Clone.git
 
 ## Usage
-Provide instructions and examples on how to use your project.
+The page will load with a search bar and several categories.
 
-```bash
-# Example
-```
+Navigate through the categories using the left and right scroll buttons.
 
-Include screenshots as necessary.
+Hover over the listing cards to see the image carousel with left and right navigation arrows.
 
 ## Credentials
-Provide user credentials for autheticated pages
+There are no authentication or login pages for this project, as it is a simple front-end replica of the Airbnb homepage.
 
 ## APIs Used
-If your application relies on external APIs, document them and include any necessary links or references.
+This project does not rely on any external APIs. It is a static site focused on UI design.
 
 ## API Endpoints
-In case of Backend Applications provide a list of your API endpoints, methods, brief descriptions, and examples of request/response.
-GET /api/items - retrieve all items
-POST /api/items - create a new item
+This project does not have any backend or API endpoints, as it is purely front-end.
 
 
 ## Technology Stack
-List and provide a brief overview of the technologies used in the project.
+HTML5: The markup structure of the website.
 
-- Node.js
-- Express.js
-- MongoDB
-- Other libraries/modules
+CSS3: Styling and layout.
+
+JavaScript: Adding interactivity, such as the search bar, dropdown menu, and image carousel.
+
+FontAwesome: For icons used throughout the site.
+
+Google Fonts: For the font style "Roboto."
